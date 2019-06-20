@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7A86D8</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="label_color">#3F51B5</color>
+    <color name="review_label_color">#7585E2</color>
+    <color name="trailer_label_color">#7585E2</color>
+    <color name="fav_button_back_color">#009688</color>
+    <color name="fav_button_color">#F3F2F7</color>
+    <color name="trailer_color">#F3F2F7</color>
+    <color name="rev_item_color">#3B0F8A</color>
+    <color name="rev_text_color">#321E35</color>
+</resources>

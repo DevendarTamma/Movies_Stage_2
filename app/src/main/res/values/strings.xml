@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="movie_poster">Movie Poster</string>
+	<string name="favourites">Favourites</string>
+    <string name="popular">Popular</string>
+    <string name="top_rated">Top rated</string>
+    <string name="release_date">Release Date</string>
+    <string name="release">release</string>
+    <string name="vote_rating">Vote / Rating</string>
+    <string name="vote">vote</string>
+    <string name="over_view">Over view</string>
+    <string name="overall">overview</string>
+    <string name="poster_of_movie">Poster of movie</string>
+    <string name="original_title_label">Original Title</string>
+    <string name="temp_title">Title</string>
+	 <string name="video">video tittle</string>
+    <string name="reviews_label">Reviews</string>
+    <string name="trailers_label">Trailers</string>
+    <string name="add_to_fav_label">Add to Favourites</string>
+    <string name="review_temp_label">Review</string>
+    <string name="author_temp_label">Author</string>
+    <string name="video_icon">video_icon</string>
+    <string name="TOP_RATED_TITTLE">Top Rated Movies</string>
+    <string name="TOP_RATED">top_rated</string>
+    <string name="POPULAR">popular</string>
+    <string name="ALERT_TITLE">INTERNET IS NOT AVAILABLE</string>
+    <string name="ALERT_MSG">Network not available click Yes to Load favourite movies</string>
+    <string name="MOVIES_OBJECT_KEY">movies_object</string>
+    <string name="SAVED_INSTANCE_KEY">DATA</string>
+    <string name="POPULAR_TITLE">Popular Movies</string>
+    <string name="FAVOURITE_SORT">fav</string>
+    <string name="FAV_TITLE">Favourite Movies</string>
+</resources>

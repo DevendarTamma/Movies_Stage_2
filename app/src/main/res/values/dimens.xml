@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="label_size">25sp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="pad">2dp</dimen>
+    <dimen name="image_width">220dp</dimen>
+    <dimen name="image_height">264dp</dimen>
+    <dimen name="medium_text_size">18sp</dimen>
+    <dimen name="linear_height">200dp</dimen>
+    <dimen name="lin_pad">30dp</dimen>
+    <dimen name="lin_pad_top">20dp</dimen>
+    <dimen name="video_size">15sp</dimen>
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MovieDetails">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/margin"
+                android:layout_weight="1"
+                android:contentDescription="@string/movie_poster"
+                android:scaleType="fitCenter"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/linear_height"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/lin_pad"
+                android:paddingEnd="0dp"
+                android:paddingTop="@dimen/lin_pad_top"
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/original_title_label"
+                    android:textColor="@color/label_color"
+                    android:textSize="@dimen/label_size" />
+
+                <TextView
+                    android:id="@+id/original_tittle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/temp_title"
+                    android:textSize="@dimen/text_size" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/release_date"
+                    android:textSize="@dimen/label_size"
+                    android:textColor="@color/label_color"/>
+
+                <TextView
+                    android:id="@+id/release_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/release"
+                    android:textSize="@dimen/text_size" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vote_rating"
+                    android:textSize="@dimen/label_size"
+                    android:textColor="@color/label_color"/>
+
+                <TextView
+                    android:id="@+id/vote"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vote"
+                    android:textSize="@dimen/text_size" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:paddingTop="@dimen/pad"
+                android:text="@string/over_view"
+                android:textColor="@color/label_color"
+                android:textSize="@dimen/label_size" />
+
+            <TextView
+                android:id="@+id/overview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:paddingStart="@dimen/lin_pad_top"
+                android:paddingTop="5dp"
+                android:paddingEnd="0dp"
+                android:text="@string/overall"
+                android:textSize="@dimen/text_size" />
+				<Button
+            android:id="@+id/fav_button"
+
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@color/fav_button_back_color"
+            android:onClick="addToFav"
+            android:text="@string/add_to_fav_label"
+            android:textColor="@color/fav_button_color" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/trailer_label_color"
+            android:gravity="center"
+            android:text="@string/trailers_label"
+            android:textColor="@color/trailer_color"
+            android:textSize="@dimen/medium_text_size" />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycle_videos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:visibility="visible" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/review_label_color"
+            android:gravity="center"
+            android:text="@string/reviews_label"
+            android:textColor="@color/trailer_color"
+            android:textSize="@dimen/medium_text_size"
+            android:id="@+id/review_label"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycle_review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
